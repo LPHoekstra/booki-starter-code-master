@@ -38,22 +38,24 @@
                 </form>
                 <article class="filter">
                     <h3>Filtres</h3>
-                    <button class="filter--btn">
-                        <img src="./images/svg/price.svg" alt="billet" class="filter--img">
-                        <span>Économique</span>
-                    </button>
-                    <button class="filter--btn">
-                        <img src="./images/svg/family.svg" alt="famille" class="filter--img">
-                        <span>Familial</span>
-                    </button>
-                    <button class="filter--btn">
-                        <img src="./images/svg/romantic.svg" alt="coeur" class="filter--img">
-                        <span>Romantique</span>
-                    </button>
-                    <button class="filter--btn">
-                        <img src="./images/svg/fire.svg" alt="feu" class="filter--img">
-                        <span>Nos pépites</span>
-                    </button>
+                    <div class="filter--btn-contenair">
+                        <button class="filter--btn">
+                            <img src="./images/svg/price.svg" alt="billet" class="filter--img">
+                            <span>Économique</span>
+                        </button>
+                        <button class="filter--btn">
+                            <img src="./images/svg/family.svg" alt="famille" class="filter--img">
+                            <span>Familial</span>
+                        </button>
+                        <button class="filter--btn">
+                            <img src="./images/svg/romantic.svg" alt="coeur" class="filter--img">
+                            <span>Romantique</span>
+                        </button>
+                        <button class="filter--btn">
+                            <img src="./images/svg/fire.svg" alt="feu" class="filter--img">
+                            <span>Nos pépites</span>
+                        </button>
+                    </div>
                 </article>
                 <div class="info-div">
                     <img src="./images/svg/info.svg" alt="info" class="info-div--info-icon">
@@ -69,7 +71,7 @@
                             <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant les deux lits"
                                 class="hebergements-cards--img">
                             <div class="hebergements-cards-content">
-                                <h3>Hôtel du port</h3>
+                                <h3 class="hebergements-cards-content--title">Hôtel du port</h3>
                                 <p>Nuit à partir de 52<span class="euro">€</span></p>
                                 <div class="card-rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -85,7 +87,7 @@
                             <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant les deux lits"
                                 class="hebergements-cards--img">
                             <div class="hebergements-cards-content">
-                                <h3>Hôtel Chez Amina</h3>
+                                <h3 class="hebergements-cards-content--title">Hôtel Chez Amina</h3>
                                 <p>Nuit à partir de 96<span class="euro">€</span></p>
                                 <div class="card-rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -101,7 +103,7 @@
                             <img src="./images/hebergements/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit"
                                 class="hebergements-cards--img">
                             <div class="hebergements-cards-content">
-                                <h3>Hôtel Les mouettes</h3>
+                                <h3 class="hebergements-cards-content--title">Hôtel Les mouettes</h3>
                                 <p>Nuit à partir de 76<span class="euro">€</span></p>
                                 <div class="card-rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -117,7 +119,7 @@
                             <img src="./images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit"
                                 class="hebergements-cards--img">
                             <div class="hebergements-cards-content">
-                                <h3>Hôtel de la mer</h3>
+                                <h3 class="hebergements-cards-content--title">Hôtel de la mer</h3>
                                 <p>Nuit à partir de 46<span class="euro">€</span></p>
                                 <div class="card-rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -133,7 +135,7 @@
                             <img src="./images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant un lit superposé"
                                 class="hebergements-cards--img">
                             <div class="hebergements-cards-content">
-                                <h3>Auberge La Canebière</h3>
+                                <h3 class="hebergements-cards-content--title">Auberge La Canebière</h3>
                                 <p>Nuit à partir de 25<span class="euro">€</span></p>
                                 <div class="card-rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -149,7 +151,7 @@
                             <img src="./images/hebergements/nicate-lee.jpg" alt="Image de la chambre d'hôtel montrant des lits superposés"
                                 class="hebergements-cards--img">
                             <div class="hebergements-cards-content">
-                                <h3>Auberge Le Panier</h3>
+                                <h3 class="hebergements-cards-content--title">Auberge Le Panier</h3>
                                 <p>Nuit à partir de 23<span class="euro">€</span></p>
                                 <div class="card-rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -260,18 +262,18 @@
 
         <footer class="footer">
             <article class="footer--info">
-                <h2>À propos</h2>
+                <h2 class="footer--title">À propos</h2>
                 <a href="#">Fonctionnement du site</a>
                 <a href="#">Conditions générales</a>
                 <a href="#">Données et confidentialité</a>
             </article>
             <article class="footer--info">
-                <h2>Nos hébergements</h2>
+                <h2 class="footer--title">Nos hébergements</h2>
                 <a href="#">Charte de qualité</a>
                 <a href="#">Proposer votre hôtel</a>
             </article>
             <article class="footer--info">
-                <h2>Assistance</h2>
+                <h2 class="footer--title">Assistance</h2>
                 <a href="#">Centre d'aide</a>
                 <a href="#">Nous contacter</a>
             </article>
