@@ -81,19 +81,26 @@ a {
 .navbar--link {
     position: relative;
     margin-left: 68px;
+    transition: color 200ms ease-in-out;
 }
 
 .navbar--link:hover {
     color: var(--main-color);
 }
 
-.navbar--link:hover::before {
+.navbar--link::before {
     content: "";
     position: absolute;
     width: 100%;
     height: 2px;
     top: -16px;
     background-color: var(--main-color);
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.navbar--link:hover::before {
+    opacity: 100;
 }
 
 /**** find section ****/
