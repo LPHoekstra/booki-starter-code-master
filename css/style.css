@@ -309,7 +309,25 @@ a {
     margin-bottom: 5px;
 }
 
+/**** footer ****/
 
+.footer {
+    background-color: var(--main-bg-color);
+    display: flex;
+    padding: 20px;
+}
+
+.footer--info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.footer--info a:hover {
+    text-decoration: solid underline 1px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
