@@ -554,4 +554,43 @@ a {
         width: 100%;
         /* justify-content: center; */
     }
+
+    /**** hebergements-and-populaires ****/
+    .hebergements-and-populaires section {
+        border-radius: 0;
+        padding: 30px 20px;
+    }
+
+    /**** Hebergements ****/
+
+    .hebergements {
+        order: 2;
+        background-color: #fff;
+    }
+
+    #hebergements {
+        background-color: #fff;
+        margin-top: 15px;
+    }
+
+    .hebergements-cards-contenair {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        gap: 15px;
+    }
+
+
+    /**** populaires ****/
+
+    .populaires {
+        order: 1;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
 }
