@@ -351,6 +351,10 @@ a {
     margin-bottom: 35px;
 }
 
+.activities--title {
+    font-size: 22px;
+}
+
 .activities-contenair {
     display: flex;
     gap: 30px;
@@ -591,6 +595,28 @@ a {
     .populaires-cards {
         flex-direction: column;
         gap: 15px;
+    }
+
+    /**** activities ****/
+
+    .activities-contenair {
+        flex-direction: column;
+    }
+
+    .activities-card {
+        flex-grow: 1;
+    }
+
+    .activities-card--img {
+        height: 141px;
+    }
+
+    /**** footer ****/
+
+    .footer {
+        flex-direction: column;
+        gap: 50px;
+        padding: 30px;
     }
 
 }
