@@ -119,11 +119,12 @@ a {
 }
 
 .find-section--title {
+    font-size: 22px;
     margin-bottom: 8px;
 }
 
 .find-section--para {
-    margin: 0;
+    font-size: 16px;
 }
 
 .search-form {
@@ -269,6 +270,10 @@ a {
 
 .hebergements-cards-content--title {
     font-size: 16px;
+}
+
+.hebergements-cards-content--subtitle {
+    font-size: 14px;
 }
 
 .show-more {
@@ -465,11 +470,11 @@ a {
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     /**** activities ****/
