@@ -230,6 +230,10 @@ a {
     width: 65%;
 }
 
+.hebergements--title {
+    font-size: 22px;
+}
+
 .hebergements-cards-contenair {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -242,18 +246,23 @@ a {
 .hebergements-cards {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .hebergements-cards--img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 124px;
+    min-height: 124px;
     width: 100%;
 }
 
 .hebergements-cards-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     gap: 8px;
     padding: 8px 10px 10px 10px;
 }
@@ -366,6 +375,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 0;
+    height: 100%;
 }
 
 .activities-card--img {
@@ -593,6 +603,7 @@ a {
 
     .activities-contenair {
         flex-direction: column;
+        gap: 15px;
     }
 
     .activities-card {
