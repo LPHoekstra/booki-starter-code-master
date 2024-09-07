@@ -13,3 +13,13 @@
 .card-title {
     font-size: 16px;
 }
+
+/**** other ****/
+
+.euro {
+    font-weight: 700;
+}
+
+.neutral-star {
+    color: var(--main-bg-color)
+}
