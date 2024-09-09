@@ -54,7 +54,7 @@
     .search-form--btn::before {
         content: "";
         display: block;
-        background-image: url(./../images/svg/search-btn.svg);
+        background-image: url("./../../images/svg/search-btn.svg");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -76,7 +76,16 @@
     }
 
     .filter--btn span {
-        font-size: 14px;
+        font-size: 0.875em;
+    }
+
+    /**** temporary ? ****/
+    .filter--btn {
+        padding: 9px 14px;
+    }
+
+    .filter--btn span {
+        font-size: 12px;
     }
 
     /**** hebergements-and-populaires ****/
