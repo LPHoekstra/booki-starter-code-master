@@ -62,30 +62,17 @@
         height: 17px;
     }
 
-    .filter--btn-contenair {
+    .filter--btn-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        row-gap: 20px;
-        column-gap: 10px;
+        gap: 1.429em 0.714em;
         width: 100%;
-    }
-
-    .filter--btn {
-        width: 100%;
-        align-items: center;
-    }
-
-    .filter--btn span {
         font-size: 0.875em;
     }
 
-    /**** temporary ? ****/
     .filter--btn {
-        padding: 9px 14px;
-    }
-
-    .filter--btn span {
-        font-size: 12px;
+        text-wrap: nowrap;
+        overflow: hidden; /* for a better responsive till 320px width */
     }
 
     /**** hebergements-and-populaires ****/

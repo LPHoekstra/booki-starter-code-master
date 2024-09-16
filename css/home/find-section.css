@@ -53,30 +53,28 @@
 }
 
 .filter,
-.filter--btn-contenair {
+.filter--btn-container {
     display: flex;
-    gap: 15px;
+    gap: 0.938em;
     align-items: center;
-}
-
-.filter h3 {
-    margin: 0;
+    font-size: 1.063em; /* 17px */
 }
 
 .filter--img {
-    height: 22px;
-    width: 22px;
+    height: 1.375em;
+    width: 1.375em;
 }
 
 .filter--btn {
-    border-radius: 25px;
-    background-color: #ffffff;
+    border-radius: 1.563em;
+    background-color: #fff;
     border: 2px solid var(--main-bg-color);
-    font-weight: bold;
-    font-size: 17px;
-    padding: 14px 19px;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0.875em 1.188em;
     display: flex;
-    gap: 10px;
+    align-items: center;
+    gap: 0.625em;
     transition: background-color 200ms;
     cursor: pointer;
 }
