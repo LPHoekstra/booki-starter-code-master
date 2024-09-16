@@ -21,7 +21,7 @@
         width: 100%;
         text-align: center;
         padding-top: 0;
-        padding-bottom: 17px;
+        padding-bottom: 1.063em;
         border-bottom: solid 2px var(--main-bg-color);
     }
 
@@ -33,13 +33,13 @@
 
     /**** find section ****/
     .find-section {
-        padding: 0 20px;
+        padding: 0 1.25em;
     }
 
     .search-form--input {
         width: 100%;
-        padding-right: 20px;
-        margin-right: -15px;
+        padding-right: 1.25em;
+        margin-right: -0.938em;
         position: relative;
         z-index: 1;
     }
@@ -47,7 +47,7 @@
     .search-form--btn {
         position: relative;
         z-index: 2;
-        border-radius: 15px;
+        border-radius: 0.938em;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 
@@ -58,8 +58,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        width: 17px;
-        height: 17px;
+        width: 1.063em;
+        height: 1.063em;
     }
 
     .filter--btn-container {
@@ -78,7 +78,7 @@
     /**** hebergements-and-populaires ****/
     .hebergements-and-populaires section {
         border-radius: 0;
-        padding: 30px 20px;
+        padding: 1.875em 1.25em;
     }
 
     /**** Hebergements ****/
@@ -95,9 +95,15 @@
     .hebergements-cards-contenair {
         display: flex;
         flex-direction: column;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        gap: 15px;
+        margin: 0.938em 0 0.938em 0;
+        gap: 0.938em;
+    }
+
+    /**** populaires and activities ****/
+    .populaires-cards,
+    .activities-contenair {
+        flex-direction: column;
+        gap: 0.938em;
     }
 
     /**** populaires ****/
@@ -106,31 +112,20 @@
         margin-top: 0;
     }
 
-    .populaires-cards {
-        flex-direction: column;
-        gap: 15px;
-    }
-
     /**** activities ****/
-
-    .activities-contenair {
-        flex-direction: column;
-        gap: 15px;
-    }
 
     .activities-card {
         flex-grow: 1;
     }
 
     .activities-card--img {
-        height: 141px;
+        height: 8.75em;
     }
 
     /**** footer ****/
-
     .footer {
         flex-direction: column;
-        gap: 50px;
-        padding: 30px;
+        gap: 3.125em;
+        padding: 1.875em;
     }
 }

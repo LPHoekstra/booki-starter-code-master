@@ -1,8 +1,8 @@
 /**** card ****/
 .card {
     background-color: white;
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 1.25em;
+    padding: 0.313em;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -11,11 +11,10 @@
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 1em;
 }
 
-/**** other ****/
-
+/**** star and euro ****/
 .euro {
     font-weight: 700;
 }
