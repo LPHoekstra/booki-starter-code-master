@@ -3,13 +3,13 @@
     margin: 2.188em 0 2.188em 0;
 }
 
-.activities-contenair {
+.activities-container {
     display: flex;
     gap: 1.875em;
     margin-top: 1.875em;
 }
 
-.activities-contenair a{
+.activities-container a{
     flex: 1;
 }
 

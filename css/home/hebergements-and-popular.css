@@ -16,7 +16,7 @@
     width: 65%;
 }
 
-.hebergements-cards-contenair {
+.hebergements-cards-container {
     margin: 1.875em 0 1.875em 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
