@@ -26,9 +26,11 @@
 
 .search-form--input {
     border: 1px solid var(--main-bg-color);
-    text-align: center;
+    text-align: left;
     font-size: 1.125em;
     font-weight: bold;
+    padding-left: 1.5em;
+    width: 12.188em;
 }
 
 .search-form--input:focus {
@@ -45,10 +47,6 @@
     padding: 0.875em 1em;
     border: none;
     cursor: pointer;
-}
-
-.search-form--btn::before {
-    content: "Rechercher";
 }
 
 .filter,
