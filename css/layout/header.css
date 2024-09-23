@@ -19,7 +19,7 @@
     padding-top: 0.875em;
 }
 
-.navbar--link__active {
+.navbar--link:hover {
     border-top: solid 2px var(--main-color);
     color: var(--main-color);
     border-color: var(--main-color);

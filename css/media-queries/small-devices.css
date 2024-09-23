@@ -25,7 +25,7 @@
         border-bottom: solid 2px var(--main-bg-color);
     }
 
-    .navbar--link__active {
+    .navbar--link:hover {
         color: var(--main-color);
         border-top: none;
         border-color: var(--main-color);
